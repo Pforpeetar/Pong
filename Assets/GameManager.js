@@ -13,10 +13,10 @@ function Start () {
 
 static function Score (wallName : String) {
 	if (wallName == "rightWall") {
-		playerScore01 += 1;
+		playerScore01 += 3;
 	}
 	else {
-		playerScore02 += 1;
+		playerScore02 += 2;
 	}
 	Debug.Log("Player 1 Score: " + playerScore01);
 	Debug.Log("Player 1 Score: " + playerScore02);
